@@ -1,9 +1,8 @@
+// abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
 
-// abstracts 
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
-
-
-// components 
-@import 'components/header';
-
+// components
+@import "components/header";
+@import "components/shop";
+@import "components/about";
