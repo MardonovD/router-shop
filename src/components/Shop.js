@@ -1,6 +1,19 @@
-import React from "react";
+import axios from "axios";
+import React, { useEffect } from "react";
 
 const Shop = () => {
+  const shopAxios = async () => {
+    const res = await axios
+      .get("https://fakestoreapi.com/products")
+      .catch((err) => {
+        console.log(err + "Error");
+      });
+    console.log(res);
+  };
+  useEffect(() => {
+    shopAxios();
+  }, []);
+
   return (
     <div className="container">
       <div className="shop-header p-2 mb-2  d-flex justify-content-between">
