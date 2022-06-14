@@ -3,10 +3,10 @@ import React from "react";
 const Header = () => {
   return (
     <div className="header">
-      <div className="container-fluid bg-danger">
+      <div className="container-fluid ">
         <div className="container">
-          <div className="row ">
-            <div className="col-12 d-flex justify-content-between  ">
+          <div className="row">
+            <div className=" header-min d-flex align-items-center p-2 col-12 d-flex justify-content-between  ">
               <span>Mardonov</span>
               <div className="nav">
                 <ul className="d-flex gap-5  ">

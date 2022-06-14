@@ -1,0 +1,17 @@
+.header {
+  background-color: $color-bg;
+  &-min {
+    span {
+      color: $color-white;
+      font-weight: 700;
+    }
+    .nav ul {
+      list-style: none;
+
+      li a {
+        text-decoration: none;
+        color: $color-white;
+      }
+    }
+  }
+}
