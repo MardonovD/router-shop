@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header">
@@ -8,16 +8,27 @@ const Header = () => {
           <div className="row">
             <div className=" header-min d-flex align-items-center p-2 col-12 d-flex justify-content-between  ">
               <span>Mardonov</span>
-              <div className="nav">
+              <div className="nav d-flex align-content-center">
                 <ul className="d-flex gap-5  ">
                   <li className="nav-item">
-                    <a href="#">Home</a>
+                    <Link to="/" href="#">
+                      Home
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="#">About</a>
+                    <Link to="shop" href="#">
+                      Shop
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="#">Contact</a>
+                    <Link to="contact" href="#">
+                      Contact
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link to="about" href="#">
+                      About
+                    </Link>
                   </li>
                 </ul>
               </div>
