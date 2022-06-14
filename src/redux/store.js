@@ -1,7 +1,6 @@
-import { combineReducers } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
+const store = configureStore({
+reducer:{
 
-const store = combineReducers({
-  shopProduct,
+}
 });
-
-export default store;
