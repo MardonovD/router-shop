@@ -7,7 +7,12 @@ const Header = () => {
         <div className="container">
           <div className="row">
             <div className=" header-min d-flex align-items-center p-2 col-12 d-flex justify-content-between  ">
-              <span>Mardonov</span>
+              <Link
+                to="/"
+                style={{ listStyle: "none", textDecoration: "none" }}
+              >
+                <span>Mardonov</span>
+              </Link>
               <div className="nav d-flex align-content-center">
                 <ul className="d-flex gap-5  ">
                   <li className="nav-item">
